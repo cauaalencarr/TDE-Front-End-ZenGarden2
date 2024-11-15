@@ -1,0 +1,267 @@
+/*Responsividade start*/
+@media (max-width: 1024px) {
+  body {
+    padding: 0 15px;
+  }
+
+  .header__title {
+    font-size: 60px;
+  }
+
+  .header__subtitle {
+    font-size: 24px;
+  }
+
+  .header__menu {
+    padding: 10px 0;
+  }
+
+  .menu__link {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .section--intro {
+    padding: 80px 15px;
+  }
+
+  .section--intro .intro__title {
+    font-size: 40px;
+  }
+
+  .section--intro .intro__text {
+    font-size: 16px;
+  }
+
+  .section--intro .intro__button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  .section--about {
+    width: 1024px;
+    padding: 30px 15px;
+  }
+
+  .section--about .section__content .section__title {
+    font-size: 36px;
+  }
+
+  .section--about .section__content .section__text {
+    font-size: 22px;
+  }
+
+  .section--about .about__grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section--about .about__item {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .section--gallery {
+    padding: 40px 15px;
+  }
+
+  .section--gallery .section__title {
+    font-size: 36px;
+  }
+
+  .gallery__grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .gallery__item {
+    width: 100%;
+  }
+
+  .section--services {
+    padding: 40px 15px;
+  }
+
+  .section--services .section__title {
+    font-size: 36px;
+  }
+
+  .services__list {
+    gap: 20px;
+  }
+
+  .service__item {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .section--news {
+    padding: 40px 15px;
+  }
+
+  .section--news .section__title {
+    font-size: 36px;
+  }
+
+  .news__grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .news__item {
+    width: 100%;
+  }
+
+  .section--contact {
+    padding: 40px 15px;
+  }
+
+  .section--contact .section__title {
+    font-size: 36px;
+  }
+
+  .contact__form {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .form__input,
+  .form__button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section--about .section__content {
+    width: 27%; /*ISSO NAO FUNCIONA*/ 
+    /*JA TENTEI TODAS AS GAMBIARRAS*/
+  }
+  .service__item {
+    width: 70%;
+    max-width: 350px;
+  }
+
+  .header__title {
+    font-size: 50px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+  }
+
+  .header__menu {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .section--intro .intro__title {
+    font-size: 32px;
+  }
+
+  .section--intro .intro__text {
+    font-size: 14px;
+  }
+
+  .section--intro .intro__button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .section--about .section__content .section__title {
+    font-size: 30px;
+  }
+
+  .section--about .section__content .section__text {
+    font-size: 20px;
+  }
+
+  .section--gallery .section__title {
+    font-size: 30px;
+  }
+
+  .gallery__grid {
+    gap: 10px;
+  }
+
+  .section--services .section__title {
+    font-size: 30px;
+  }
+
+  .section--news .section__title {
+    font-size: 30px;
+  }
+
+  .section--contact .section__title {
+    font-size: 30px;
+  }
+
+  .form__label {
+    font-size: 14px;
+  }
+
+  .form__input,
+  .form__button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 40px;
+  }
+
+  .header__subtitle {
+    font-size: 18px;
+  }
+
+  .section--intro .intro__title {
+    font-size: 28px;
+  }
+
+  .section--intro .intro__text {
+    font-size: 13px;
+  }
+
+  .section--intro .intro__button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .section--about .section__content .section__title {
+    font-size: 26px;
+  }
+
+  .section--about .section__content .section__text {
+    font-size: 18px;
+  }
+
+  .section--gallery .section__title {
+    font-size: 26px;
+  }
+
+  .section--services .section__title {
+    font-size: 26px;
+  }
+
+  .section--news .section__title {
+    font-size: 26px;
+  }
+
+  .section--contact .section__title {
+    font-size: 26px;
+  }
+
+  .contact__form {
+    width: 100%;
+    padding: 0;
+  }
+
+  .form__input,
+  .form__button {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+/*Responsividade end*/
